@@ -1,0 +1,63 @@
+.dashBoardSection{
+    display: flex;
+}
+.buttonSsection{
+    width: 25vw;
+    border: 1px solid red;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.buttonGruop{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    height: 300px;
+    width: 200px;
+}
+.buttonGruop button{
+    background-color: rgb(23, 26, 189);
+    font-size: 20px;
+    border-width: 0px;
+    color: white;
+    height: 40px;
+    border-radius: 16px;
+    
+}
+.buttonGruop button:hover{
+    border: 2px solid rgb(228, 12, 12);
+    background-color: rgb(68, 114, 68);
+}
+.contentSection{
+    border: 1px solid black;
+    width: 75vw;
+    padding: 10px;
+    background-color: rgb(204, 218, 218);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+
+}
+
+
+.logoutContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.logoutContainer button{
+    background-color: rgb(207, 48, 48);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    border-width: 0px;
+    margin-left: 100px;
+    padding: 5px;
+}
+.logoutContainer button:hover{
+    background-color: rgb(152, 221, 49);
+}

@@ -6,7 +6,7 @@ import { Button, Checkbox, Form, Input } from "antd";
 //import Layout from 'antd/lib/layout/layout';
 import "./FacultyLogin.css";
 import { Link } from "react-router-dom";
-import FacultyHome from './FacultyHome';
+import FacultyHome from './FacultyDashBoard/FacultyHome';
 
 const FacultyLogin = () => {
   const[isLogin,setisLogin]=useState(false)
